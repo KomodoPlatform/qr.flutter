@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  qr: ^1.2.0
+  qr: # ^1.2.0 - TODO: 7a1d3791810050bd1257e70a08ab309b0fa6b996
+    git: 
+      url: git://github.com/KomodoPlatform/qr.dart.git
+      ref: 7a1d3791810050bd1257e70a08ab309b0fa6b996
 
 dev_dependencies:
   flutter_test:
